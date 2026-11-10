@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script><title>ICT 10</title>
+    <style>
+       body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;         
+        background-image: url(https://i.pinimg.com/1200x/d2/31/c2/d231c22f07d72dc3119616073b744a61.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+        min-height: 100vh;
+        }
+        
+        .checkerform {
+        background-color: rgb(122, 159, 117);
+        width: 700px;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center; 
+           
+        }
+
+        #button{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'TrebuchetMS', sans-serif;
+        width: 250px;
+        height: 30px;
+        background-color: rgb(17, 56, 17);
+        color: rgb(247, 247, 243);
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+        }
+
+        #output1{
+        background-color: #f4f6f9;
+        margin-top: 10px;
+        color: rgb(17, 56, 17);
+        border-radius: 10px;
+        }
+
+    
+        h1{
+        color: rgb(17, 56, 17);
+        font-weight: bold;
+        background-color: #f4f6f9;
+        border-radius: 15px;
+        }
+
+        p{
+        color:rgb(40, 85, 14);
+        font-weight: bold;
+        }
+
+        #elemsymbol{
+        color:rgb(44, 85, 44);
+        }
+        #label{
+        color:rgb(22, 45, 22);
+        font-weight: bold;
+                }
+    </style>
+</head>
+<body>
+    <div class="checkerform">
+    <h1>Non-Metal Elements</h1>
+    <p>Periodic Table Information Finder</p>     
+    <label for ="elements" id="label">Element Symbol</label>
+    <br>
+    <input type="text" id="elements" class="form-control">
+    <br>
+    <button type="button" class="btn btn-primary" py-click="check_country">Check</button>
+    <button type="button" class="btn btn-warning" py-click="show_country">Show</button>
+    </form>
+    </div>
+    </div>
+    </div>
+  
+    <script type="py" src="main.py"></script>
+</body>
+</html>
+</html>
